@@ -11,11 +11,11 @@ Our goal or purpose with this project was to take the given KickStarter dataset 
 
 ### Analysis of Outcomes Based on Goals
 ![alt text](https://github.com/sebcampos/kickstarter-analysis/blob/master/resources/Outcomes_vs_Goals.png?raw=true)
-In the above image we mapped the percentages of all the successful, failed, and cancelled Kickstarters relevant to their goals under the subcategory Plays. This was done utilizing the Excel software. We created a new sheet where a COUNTIF function was used to reference and count the outcomes based on filters mentioned above. The data was then populated based on a 12 different ranges based on the Kickstarters Goals column that we created. Below is one of the 'scripts' using the function to populate a sell.
+In the above image we mapped the percentages of all the successful, failed, and cancelled Kickstarters relevant to their goals under the subcategory Plays. This was done utilizing the Excel software. We created a new sheet where a COUNTIF function was used to reference and count the outcomes based on filters mentioned above. The data was then populated based on a 12 different ranges created from the Kickstarters Goals column. Below is one of the 'scripts' using the function to populate a sell.
 
 `=COUNTIFS(KickStarter!$D:$D, ">=25000",KickStarter!$D:$D, "<30000",KickStarter!$F:F,"failed",KickStarter!R:R,"plays")`
 
-The above code references the original KickStarter data for outcomes within the range of less than or equal to 25000  and less than 30000. It also ensures that these outcomes are being selected only from rows including the values "plays" as well as "failed". Once a column was made for each category we used another function to populate four new columns. The first, The Total Projects column, counted all the outcomes we had just collected on this new page. resulting in a new column Total Projects for each of the 12 ranges or indexes. Finally the last three columns where populated using the the total of plays based on category in the given range divided by the total plays in that range. Doing so we created three columns for each category and populated it with the percentage associated with that category and range
+The above code references the original KickStarter data for outcomes within the range of greater than or equal to 25000  and less than 30000. It also ensures that these outcomes are being selected only from rows including the values "plays" as well as "failed". Once a column was made for each category we used another function to populate four new columns. The first, The Total Projects column, counted all the outcomes we had just collected on this new page and sorting them by their goal. This resulted in a new column Total Projects with a vlue of total outcomes for each of the 12 ranges/indexes. Finally the last three columns where populated using the the total of plays based on category in the given range divided by the total plays in that range. Doing so we created three columns for each category and populated it with the percentage associated with that category and range
 
 `=B3/E3`
 
@@ -23,16 +23,16 @@ The above function took the information from B3 or number of succesfull outcomes
 
 ### Analysis of Outcomes Based on Launch Date
 ![alt text](https://github.com/sebcampos/kickstarter-analysis/blob/master/resources/Theater_Outcomes_vs_Launch.png?raw=true)
-In the above chart we illustrated the same categories of Success, Failed and Canceled outcomes except this time the data is based on the Launch Date of the Kickstarter. Using the insert pivot table function we were able to create an new Excel sheet where we selected the fields of data we were interested in. These being the columns Outcomes,Parent Category, Date Created Conversion,  and Years.
+In the above chart we depicted the same categories of Success, Failed and Canceled outcomes except this time the data is based on the Launch Date of the Kickstarter and filtered to only display data pertaining to the Theater category. Using the `insert pivot table` function we were able to create an new Excel sheet where we selected the fields of data we were interested in. These being the columns Outcomes,Parent Category, Date Created Conversion,  and Years.
 
 ![alt text](https://github.com/sebcampos/kickstarter-analysis/blob/master/ExcelPhotos/Screen%20Shot%202020-09-19%20at%209.12.39%20PM.png?raw=true)
 
-In the above image we can see where the data is selected. Data is funneled or filtered by the parent category and the Date created columns. Then from the column outcomes, we assign our new columns those being Successful, Failed, and Canceled. Finnally we assign the rows values to those of the Date created columns and the values for the table as the count of outcomes in each category.
+In the above image we can see where the data is selected. Data is funneled or filtered by the parent category and the Date created columns. Then from the original Kickstarter column labeled outcomes, we create the values for our new columns on the new sheet; those being Successful, Failed, and Canceled. Finnally we assign the rows values of the new sheet to those of the Date created columns from the original Kickstarter dataset. Finnaly the values for the table are selected as the count of outcomes in each category.
 
 ![alt text](https://github.com/sebcampos/kickstarter-analysis/blob/master/ExcelPhotos/Screen%20Shot%202020-09-19%20at%209.21.24%20PM.png?raw=true)
 
 In the above image we can select the Parent Category to only display outcomes with the Parent Category of Theaters. Under the row labels we have the rows of each
-month  and the amount of outcomes that fall under that month and those categories. Just like in the last graph, successful outcomes are expressed by the blue line on the graph, amber got the failed outcomes, and yellow for the canceled. The x-axis displays the months og the year and  
+month  and the amount of outcomes that fall under that month for each column. Just like in the last graph, successful outcomes are expressed by the blue line on the graph, amber got the failed outcomes, and yellow for the canceled. The x-axis displays the months of the year and  
 
 ### Challenges and Difficulties Encountered
 
