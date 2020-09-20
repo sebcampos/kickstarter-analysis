@@ -11,7 +11,7 @@ Our goal or purpose with this project was to take the given KickStarter dataset 
 
 ### Analysis of Outcomes Based on Goals
 ![alt text](https://github.com/sebcampos/kickstarter-analysis/blob/master/resources/Outcomes_vs_Goals.png?raw=true)
-In the above image we mapped the percentages of all the successful, failed, and cancelled Kickstarters relevant to their goals under the subcategory Plays. This was done utilizing the Excel software. We created a new sheet where a COUNTIF function was used to reference and count the outcomes based on filters mentioned above. The data was then populated based on a 12 different ranges created from the Kickstarters Goals column. Below is one of the 'scripts' using the function to populate a sell.
+In the above image we mapped the percentages of all the successful, failed, and cancelled Kickstarters relevant to their goals under the subcategory Plays. This was done utilizing the Excel software. We created a new sheet where a COUNTIF function was used to reference the orignal dataset and count the outcomes based on filters mentioned above. The data was then populated based on a 12 different ranges created from the Kickstarters Goals column. Below is one of the 'scripts' using the function to populate a cell.
 
 `=COUNTIFS(KickStarter!$D:$D, ">=25000",KickStarter!$D:$D, "<30000",KickStarter!$F:F,"failed",KickStarter!R:R,"plays")`
 
