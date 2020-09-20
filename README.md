@@ -24,7 +24,10 @@ The above function took the information from B3 or number of succesfull outcomes
 ### Analysis of Outcomes Based on Launch Date
 ![alt text](https://github.com/sebcampos/kickstarter-analysis/blob/master/resources/Theater_Outcomes_vs_Launch.png?raw=true)
 In the above chart we illustrated the same categories of Success, Failed and Canceled outcomes except this time the data is based on the Launch Date of the Kickstarter. Using the insert pivot table function we were able to create an new Excel sheet where we selected the fields of data we were interested in. These being the columns Outcomes,Parent Category, Date Created Conversion,  and Years.
-![alt text]
+![alt text](https://github.com/sebcampos/kickstarter-analysis/blob/master/ExcelPhotos/Screen%20Shot%202020-09-19%20at%209.12.39%20PM.png?raw=true)
+
+![alt text](https://github.com/sebcampos/kickstarter-analysis/blob/master/ExcelPhotos/Screen%20Shot%202020-09-19%20at%209.21.24%20PM.png?raw=true)
+
 ### Challenges and Difficulties Encountered
 
 Although Excel has great tools for iterating, filtering, and funelling Data it can be quite intimidating. To use these tools we had to dig a little into the subscript of Excel to call the functions that would help us iterate and funnel the appropriate data then perform calculations on this new smaller set of data.
