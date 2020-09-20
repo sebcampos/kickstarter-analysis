@@ -12,8 +12,17 @@ Our goal or purpose with this project was to take the given KickStarter dataset 
 ### Analysis of Outcomes Based on Goals
 ![alt text](https://github.com/sebcampos/kickstarter-analysis/blob/master/resources/Outcomes_vs_Goals.png?raw=true)
 In the above image we mapped the percentages of all the successful, failed, and cancelled Kickstarters relevant to their goals under the subcategory Plays. This was done utilizing the Excel software. We created a new sheet where a COUNTIF function was used to reference and count the outcomes based on filters mentioned above. The data was then populated based on a 12 different ranges based on the Kickstarters Goals column that we created. Below is one of the 'scripts' using the function to populate a sell.
-=COUNTIFS(KickStarter!$D:$D, ">=25000",KickStarter!$D:$D, "<30000",KickStarter!$F:F,"failed",KickStarter!R:R,"plays")
-The above code references the original KickStarter data for outcomes within the range of less than or equal to 25000  and less than 30000. It also ensures that these outcomes are being selected only from rows including the values "plays" as well as "failed"
+
+`=COUNTIFS(KickStarter!$D:$D, ">=25000",KickStarter!$D:$D, "<30000",KickStarter!$F:F,"failed",KickStarter!R:R,"plays")`
+
+The above code references the original KickStarter data for outcomes within the range of less than or equal to 25000  and less than 30000. It also ensures that these outcomes are being selected only from rows including the values "plays" as well as "failed". Once a column was made for each category we used another function to populate four new columns. The first, The Total Projects column, counted all the outcomes we had just collected on this new page. resulting in a new column Total Projects for each of the 12 ranges or indexes. Finally the last three columns where populated using the the total of plays based on category in the given range divided by the total plays in that range. Doing so we created three columns for each category and populated it with the percentage associated with that category and range
+
+`=B3/E3`
+
+The above function took the information from B3 or number of succesfull outcomes within the range 1000 to 4999 and divided it by the total number of outcomes in the same range populating the a new cell in a new column labled Percentage Successfull. This was applied to all of the previous built columns. Lastly a Chart was rendered to illustrate the data in a more clear format. The x-axis of the chart was populated by the 12 different ranges, the y-axis with the percentage of the different categories , Percentage successfull as a blue line, Percentage Failed as an amber line and Percentage Canceled as a grey line
+
+Although Excel has great tools for iterating, filtering, and funelling Data it can be quite intimidating. To use these tools we had to dig a little into the subscript of Excel to call the functions that would help us iterate and funnel the appropriate data then perform calculations on this new smaller set of data.
+There is also the issue of navigating a pretty intimidating GUI, I myself particularly found this to be true when rendering the charts. 
 
 
 The Blue line represents the percentage of successful plays while the orange depicts the percentage of failed plays. The number of cancelled plays remains a steady 0 throughout the entire dataset as no plays were cancelled.
