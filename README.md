@@ -37,7 +37,7 @@ month  and the amount of outcomes that fall under that month and those categorie
 ### Challenges and Difficulties Encountered
 
 Although Excel has great tools for iterating, filtering, and funelling Data it can be quite intimidating. To use these tools we had to dig a little into the subscript of Excel to call the functions that would help us iterate and funnel the appropriate data then perform calculations on this new smaller set of data.
-There is also the issue of navigating a pretty intimidating GUI, I myself particularly found this to be true when rendering the charts. 
+There is also the issue of navigating a pretty intimidating GUI, I myself particularly found this to be true when rendering the charts. Google and my peers helped me by showing me more elegant ways to apply functions, such as applying them to etire columns as apposed to each individual result. 
 
 
 ## Results
