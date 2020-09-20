@@ -32,19 +32,22 @@ In the above image we can see where the data is selected. Data is funneled or fi
 ![alt text](https://github.com/sebcampos/kickstarter-analysis/blob/master/ExcelPhotos/Screen%20Shot%202020-09-19%20at%209.21.24%20PM.png?raw=true)
 
 In the above image we can select the Parent Category to only display outcomes with the Parent Category of Theaters. Under the row labels we have the rows of each
-month  and the amount of outcomes that fall under that month for each column. Just like in the last graph, successful outcomes are expressed by the blue line on the graph, amber got the failed outcomes, and yellow for the canceled. The x-axis displays the months of the year and  
+month  and the amount of outcomes that fall under that month for each column. Just like in the last graph, successful outcomes are expressed by the blue line on the graph, amber got the failed outcomes, and yellow for the canceled. The x-axis displays the months of the year and the y-axis displays the amount of Kickstarters.
 
 ### Challenges and Difficulties Encountered
 
 Although Excel has great tools for iterating, filtering, and funelling Data it can be quite intimidating. To use these tools we had to dig a little into the subscript of Excel to call the functions that would help us iterate and funnel the appropriate data then perform calculations on this new smaller set of data.
-There is also the issue of navigating a pretty intimidating GUI, I myself particularly found this to be true when rendering the charts. Google and my peers helped me by showing me more elegant ways to apply functions, such as applying them to etire columns as apposed to each individual result. 
+There is also the issue of navigating a pretty intimidating GUI, I myself particularly found this to be true when rendering the charts. Google and my peers helped me by showing me more elegant ways to apply functions, such as applying them to etire columns as apposed to each individual result. Because there are so many different approaches to allocating and or filtering the appropriate data it can be seem overwhelming. But These different approaches are usefull and can help one decide what would be the most efficent for the task at hand, the only way to find out is to use the resources at hand (the internet, documentation,peers) and to dive right in!
 
 
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
+
+For the Outcomes of Kickstarters in the theator category based on their Launch date the graph shows a large and steady increase of successful outcomes begining in March with 56 successfull and 33 failed and peaking in May with 111 successfull and only 52 failed. This leads me to the conclusion that KickStartes which begin between these months have a higher chance of success. Another conclusion that could be drawn from this dataset is that plays from September to December have a lower chance of success. We can see that more of percentage of success drop from 59 to 37 as well as an increase in the percentage of cancellation. In December there are oly 37 plays with 35 cancelled. It looks like we would want to launch our Kickstarers  plays from March to May! 
   
 - What can you conclude about the Outcomes based on Goals?
+
 
 - What are some limitations of this dataset?
 
