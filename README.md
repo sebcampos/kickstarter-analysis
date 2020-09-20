@@ -24,9 +24,15 @@ The above function took the information from B3 or number of succesfull outcomes
 ### Analysis of Outcomes Based on Launch Date
 ![alt text](https://github.com/sebcampos/kickstarter-analysis/blob/master/resources/Theater_Outcomes_vs_Launch.png?raw=true)
 In the above chart we illustrated the same categories of Success, Failed and Canceled outcomes except this time the data is based on the Launch Date of the Kickstarter. Using the insert pivot table function we were able to create an new Excel sheet where we selected the fields of data we were interested in. These being the columns Outcomes,Parent Category, Date Created Conversion,  and Years.
+
 ![alt text](https://github.com/sebcampos/kickstarter-analysis/blob/master/ExcelPhotos/Screen%20Shot%202020-09-19%20at%209.12.39%20PM.png?raw=true)
 
+In the above image we can see where the data is selected. Data is funneled or filtered by the parent category and the Date created columns. Then from the column outcomes, we assign our new columns those being Successful, Failed, and Canceled. Finnally we assign the rows values to those of the Date created columns and the values for the table as the count of outcomes in each category.
+
 ![alt text](https://github.com/sebcampos/kickstarter-analysis/blob/master/ExcelPhotos/Screen%20Shot%202020-09-19%20at%209.21.24%20PM.png?raw=true)
+
+In the above image we can select the Parent Category to only display outcomes with the Parent Category of Theaters. Under the row labels we have the rows of each
+month  and the amount of outcomes that fall under that month and those categories. Just like in the last graph, successful outcomes are expressed by the blue line on the graph, amber got the failed outcomes, and yellow for the canceled. The x-axis displays the months og the year and  
 
 ### Challenges and Difficulties Encountered
 
