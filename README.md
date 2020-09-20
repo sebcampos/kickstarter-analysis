@@ -21,17 +21,14 @@ The above code references the original KickStarter data for outcomes within the 
 
 The above function took the information from B3 or number of succesfull outcomes within the range 1000 to 4999 and divided it by the total number of outcomes in the same range populating the a new cell in a new column labled Percentage Successfull. This was applied to all of the previous built columns. Lastly a Chart was rendered to illustrate the data in a more clear format. The x-axis of the chart was populated by the 12 different ranges, the y-axis with the percentage of the different categories , Percentage successfull as a blue line, Percentage Failed as an amber line and Percentage Canceled as a grey line
 
-Although Excel has great tools for iterating, filtering, and funelling Data it can be quite intimidating. To use these tools we had to dig a little into the subscript of Excel to call the functions that would help us iterate and funnel the appropriate data then perform calculations on this new smaller set of data.
-There is also the issue of navigating a pretty intimidating GUI, I myself particularly found this to be true when rendering the charts. 
-
-
-The Blue line represents the percentage of successful plays while the orange depicts the percentage of failed plays. The number of cancelled plays remains a steady 0 throughout the entire dataset as no plays were cancelled.
-
 ### Analysis of Outcomes Based on Launch Date
 ![alt text](https://github.com/sebcampos/kickstarter-analysis/blob/master/resources/Theater_Outcomes_vs_Launch.png?raw=true)
-
+In the above chart we illustrated the same categories of Success, Failed and Canceled outcomes except this time the data is based on the Launch Date of the Kickstarter. Using the insert pivot table function we were able to create an new Excel sheet where we selected the fields of data we were interested in. These being the columns Outcomes,Parent Category, Date Created Conversion,  and Years.
+![alt text]
 ### Challenges and Difficulties Encountered
 
+Although Excel has great tools for iterating, filtering, and funelling Data it can be quite intimidating. To use these tools we had to dig a little into the subscript of Excel to call the functions that would help us iterate and funnel the appropriate data then perform calculations on this new smaller set of data.
+There is also the issue of navigating a pretty intimidating GUI, I myself particularly found this to be true when rendering the charts. 
 
 
 ## Results
