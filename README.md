@@ -6,8 +6,9 @@ Performing analysis on Kickstarter data to uncover trends
 ## Overview of Project
 
 ### Purpose
-Our goal or purpose with this project was to take the given KickStarter dataset and to illustrate/analyze how different campaigns fared in relation to their launch dates and their funding goals.  
+Our goal or purpose with this project was to take the given KickStarter dataset and to illustrate/analyze how different campaigns fared in relation to their launch dates and their funding goals. Utilizing the usefull software Excel, we were able to allocate the relevant information into smaller datasets and then create visuals depicting the trends in line graphs. Althought the numbers in out pivot tables gave us the information we needed, the aid og visuals charting the data was extremely helpful in identifying fluctuations and conveying them to the interested party.
 ## Analysis and Challenges
+![alt text](https://github.com/[sebcampos]/[kickstarter-analysis]/blob/[master]/image.jpg?raw=true)
 
 ### Analysis of Outcomes Based on Launch Date
 
@@ -18,7 +19,7 @@ Our goal or purpose with this project was to take the given KickStarter dataset 
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
-  _plays from march to may seem to have a dramatic rise with percentage
+  
 - What can you conclude about the Outcomes based on Goals?
 
 - What are some limitations of this dataset?
