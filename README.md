@@ -47,11 +47,13 @@ There is also the issue of navigating a pretty intimidating GUI, I myself partic
 For the Outcomes of Kickstarters in the theater category based on their Launch date the graph shows a large and steady increase of successful outcomes beginning in March with 56 successful and 33 failed and peaking in May with 111 successful and only 52 failed. This leads me to the conclusion that KickStarters which begin between these months have a higher chance of success. Another conclusion that could be drawn from this dataset is that plays from September to December have a lower chance of success. We can see that more of percentage of success drop from 59 to 37 as well as an increase in the percentage of cancellation. In December there are only 37 plays with 35 cancelled. It looks like we would want to launch our Kickstarers  plays from March to May! 
   
 - What can you conclude about the Outcomes based on Goals?
+
 From the Outcomes based on Goals chart we can see that the percentage of successful outcomes decreases as the Goal value increases. Interestingly we see a spike where the percentage of success actually increases for goals in the ranges of 25000 to 400000 before stabilizing  and then dropping to 0 percentage of success. It can be concluded that the higher the goal the less likely it will be achieved. But it is also noteworthy to say that highest range begins to increase in success percentage again.
 
 - What are some limitations of this dataset?
-Some limitations to the data set are that we are only looking through a window of 2009 - 2017
 
+Some limitations to the data set are that we are only looking through a window of 2009 - 2017
+We are also not able to see the outcomes of all the live events, of which there are 114.
 
 
 
