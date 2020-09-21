@@ -15,7 +15,7 @@ In the above image we mapped the percentages of all the successful, failed, and 
 
 `=COUNTIFS(KickStarter!$D:$D, ">=25000",KickStarter!$D:$D, "<30000",KickStarter!$F:F,"failed",KickStarter!R:R,"plays")`
 
-The above code references the original KickStarter data for outcomes within the range of greater than or equal to 25000  and less than 30000. It also ensures that these outcomes are being selected only from rows including the values ``plays" as well as "failed". Once a column was made for each category we used another function to populate four new columns. The first, The Total Projects column, counted all the outcomes we had just collected on this new page and sorted them by their goal. This resulted in a new column Total Projects with a value of total outcomes for each of the 12 ranges/indexes. Finally the last three columns were populated using the total of plays based on category in the given range divided by the total plays in that range. Doing so we created three columns for each category and populated it with the percentage associated with that category and range
+The above code references the original KickStarter data for outcomes within the range of greater than or equal to 25000  and less than 30000. It also ensures that these outcomes are being selected only from rows including the values "plays" as well as "failed". Once a column was made for each category we used another function to populate four new columns. The first, The Total Projects column, counted all the outcomes we had just collected on this new page and sorted them by their goal. This resulted in a new column Total Projects with a value of total outcomes for each of the 12 ranges/indexes. Finally the last three columns were populated using the total of plays based on category in the given range divided by the total plays in that range. Doing so we created three columns for each category and populated it with the percentage associated with that category and range
 
 `=B3/E3`
 
@@ -44,19 +44,22 @@ There is also the issue of navigating a pretty intimidating GUI, I myself partic
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-For the Outcomes of Kickstarters in the theater category based on their Launch date the graph shows a large and steady increase of successful outcomes beginning in March with 56 successful and 33 failed and peaking in May with 111 successful and only 52 failed. This leads me to the conclusion that KickStarters which begin between these months have a higher chance of success. Another conclusion that could be drawn from this dataset is that plays from September to December have a lower chance of success. We can see that more of percentage of success drop from 59 to 37 as well as an increase in the percentage of cancellation. In December there are only 37 plays with 35 cancelled. It looks like we would want to launch our Kickstarers  plays from March to May! 
+For the Outcomes of Kickstarters in the theater category based on their Launch date the graph shows a large and steady increase of successful outcomes beginning in March with 56 successful and 33 failed and peaking in May with 111 successful and only 52 failed. This leads me to the conclusion that KickStarters which begin between these months have a higher chance of success. Another conclusion that could be drawn from this dataset is that plays from September to December have a lower chance of success. We can see that more of the percentage of success drops from 59 to 37 as well as an increase in the percentage of cancellation. In December there are only 37 plays with 35 cancelled. It looks like we would want to launch our Kickstarers  plays from March to May! 
   
 - What can you conclude about the Outcomes based on Goals?
 
-From the Outcomes based on Goals chart we can see that the percentage of successful outcomes decreases as the Goal value increases. Interestingly we see a spike where the percentage of success actually increases for goals in the ranges of 25000 to 400000 before stabilizing  and then dropping to 0 percentage of success. It can be concluded that the higher the goal the less likely it will be achieved. But it is also noteworthy to say that highest range begins to increase in success percentage again.
+From the Outcomes based on Goals chart we can see that the percentage of successful outcomes decreases as the Goal value increases. Interestingly we see a spike where the percentage of success actually increases for goals in the ranges of 25000 to 400000 before stabilizing  and then dropping to 0 percentage of success. It can be concluded that the higher the goal the less likely it will be achieved. But it is also noteworthy to say that the highest range begins to increase in success percentage again.
 
 - What are some limitations of this dataset?
 
 Some limitations to the data set are that we are only looking through a window of 2009 - 2017
 We are also not able to see the outcomes of all the live events, of which there are 114.
+Another issue could be that we are only looking at the datasets that are related to KickStartes. It begs the question of whether our results would be different if we included the same data that was not only related to Kickstarters.
 
 
 
 - What are some other possible tables and/or graphs that we could create?
+
+There are so many different tables we could make! we could filter these outcomes by country and find and compare trends related to each country, perhaps we discover that plays are more successful in specific countries. We could also create tables based on the least successful to find any patterns or trends within these categories, do plays in the US tend to be linked with success or failure? and many more.
 
 
